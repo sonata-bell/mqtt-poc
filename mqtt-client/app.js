@@ -1,8 +1,8 @@
 const mqtt = require('mqtt');
 
 const client = mqtt.connect({
-  host: 'hostname',
-  port: 0000,
+  host: '127.0.0.1',
+  port: 4444,
   protocol: 'mqtt',
 });
 
