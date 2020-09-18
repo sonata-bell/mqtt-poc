@@ -1,8 +1,8 @@
 const mqtt = require('mqtt');
 
 const client = mqtt.connect({
-  host: '127.0.0.1',
-  port: 4444,
+  host: 'hostname',
+  port: 0000,
   protocol: 'mqtt',
 });
 
@@ -21,7 +21,7 @@ client.on('message', (topic, message, packet) => {
   console.log('message: ', message.toString());
   console.log('packet: ', packet);
 
-  // client.end();
+  client.end();
 });
 
 client.on('error', (err) => {
