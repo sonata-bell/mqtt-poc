@@ -1,0 +1,14 @@
+{
+  "name": "mqtt-mosca",
+  "version": "0.0.1",
+  "description": "SonataBell MQTT Mosca Sever",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "SonataBell",
+  "license": "MIT",
+  "dependencies": {
+    "mosca": "^2.8.3"
+  }
+}

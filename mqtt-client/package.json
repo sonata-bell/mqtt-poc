@@ -1,0 +1,14 @@
+{
+  "name": "mqtt-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "SonataBell",
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "^4.2.1"
+  }
+}
