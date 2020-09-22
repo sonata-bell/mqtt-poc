@@ -18,10 +18,10 @@ client.on_connect = on_connect
 client.on_publish = on_publish
 client.on_message = on_message
 
-client.connect("sblabs.iptime.org", 1883)
+client.connect("IP Address", 1883)
 
-client.subscribe("topic")
+client.subscribe("Topic")
 
-client.publish("topic", 'payload')
+client.publish("Topic", 'Payload')
 
 client.loop_forever()
