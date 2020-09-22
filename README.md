@@ -2,9 +2,9 @@
 
 ## 1. Node.js MQTT POC
 
-    - MQTT Server
-    - MQTT Client(Publish, Subscribe)
+- MQTT Server
+- MQTT Client(Publish, Subscribe)
 
 ## 2. Python MQTT POC
 
-    - MQTT Client(Publish, Subscribe)
+- MQTT Client(Publish, Subscribe)
